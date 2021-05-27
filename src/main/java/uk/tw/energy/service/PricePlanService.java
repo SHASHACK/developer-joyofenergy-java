@@ -60,6 +60,7 @@ public class PricePlanService {
                 .get();
 
         return BigDecimal.valueOf(Duration.between(first.getTime(), last.getTime()).getSeconds() / 3600.0);
+		System.out.println("Hello");
     }
 
 }
