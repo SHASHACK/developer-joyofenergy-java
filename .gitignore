@@ -43,10 +43,13 @@ cmake-build-debug/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
-
+bin/*
 # Cursive Clojure plugin
 .idea/replstate.xml
 
+.classpath
+.project
+.settings/
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
